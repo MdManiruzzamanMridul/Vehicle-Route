@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhaka Local Bus Route Finder</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather+Sans:wght@700&family=Noto+Sans+Bengali:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Overrides -->
+  <style>
+    .font-sans {
+      font-family: 'Inter', sans-serif !important;
+    }
+    .font-heading {
+      font-family: 'Merriweather Sans', sans-serif;
+    }
+    .font-bangla {
+      font-family: 'Noto Sans Bengali', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="min-h-screen bg-cover bg-center bg-no-repeat text-white font-sans relative" 
+      style="background-image: url('assets/Dhaka Night-view.jpg');">
+
+  <!-- Overlay (controls opacity of background) -->
+  <div class="absolute inset-0 bg-black/50"></div>
+
+  <!-- Layout Container -->
+  <div class="relative grid grid-cols-1 md:grid-cols-[18rem_auto] gap-6 max-w-6xl px-4 py-8 min-h-[90vh] pl-4">
+
+    <!-- Sidebar (Left) -->
+<aside class="bg-white/10 backdrop-blur-sm rounded-xl p-4 overflow-y-auto relative">
+  <div class="flex items-center justify-between mb-4">
+    <h2 class="text-xl font-bold text-teal-400">History</h2>
+    <button id="clearHistoryBtn" 
+            class="text-sm text-slate-400 hover:text-teal-400 transition">
+      Clear All
+    </button>
+  </div>
+  <ul id="historyList" class="space-y-2">
+    <!-- History items will be inserted here -->
+  </ul>
+</aside>
+
+    <!-- Main Block (Right) -->
+    <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 flex flex-col items-center mt-24">
+      <h1 id="mainTitle" class="text-3xl font-bold text-amber-400 mb-4 text-center font-heading">
+        🚍 Dhaka Local Bus Route Finder
+      </h1>
+      <input type="text" name="fake-autofill-blocker" autocomplete="off" style="display:none;">
+      <input id="start" list="stops" placeholder="Start location"
+  class="w-full p-3 rounded-lg bg-gray-800 text-white mb-3"
+  autocomplete="off" autocorrect="off" spellcheck="false" name="start-location" inputmode="search">
+
+<input id="end" list="stops" placeholder="Destination"
+  class="w-full p-3 rounded-lg bg-gray-800 text-white mb-3"
+  autocomplete="off" autocorrect="off" spellcheck="false" name="end-location" inputmode="search">
+      <datalist id="stops"></datalist>
+      <button id="searchBtn" class="w-full bg-teal-500 py-3 rounded-lg mt-2 hover:bg-amber-500 text-gray-900 font-semibold transition">
+        Search
+      </button>
+
+      <!-- Results Grid -->
+      <div id="results" class="w-full mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        
+        <!-- Results will appear here -->
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Details Modal -->
+  <div id="details" class="hidden fixed inset-0 bg-black/80 flex items-center justify-center p-6 z-50">
+    <div class="bg-gray-800 rounded-xl p-6 w-full max-w-sm relative h-[28rem] overflow-y-auto">
+      <button onclick="closeDetails()" class="absolute top-2 right-2 text-gray-400 text-xl">✖</button>
+      <img id="busImage" class="w-full h-48 object-cover rounded-lg" alt="Bus image">
+      <h2 id="busName" class="text-xl font-bold text-teal-400"></h2>
+      <p id="busBangla" class="text-gray-300 mb-2 font-bangla"></p>
+      <p id="busService" class="text-sm text-gray-400 mb-2"></p>
+      <p id="busTime" class="text-sm text-gray-400 mb-4"></p>
+      <h3 class="text-lg font-semibold mb-2">Full Route:</h3>
+      <ul id="busRoute" class="list-disc list-inside text-gray-200 space-y-1"></ul>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="app.js" defer></script>
+</body>
+</html>

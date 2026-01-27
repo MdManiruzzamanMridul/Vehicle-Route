@@ -1,0 +1,65 @@
+:root {
+  --heritage-teal: #14b8a6;
+  --heritage-amber: #f59e0b;
+  --heritage-brick: #b91c1c;
+  --heritage-green: #166534;
+  --bg-dark: #1e1e1e;
+  --text-light: #f3f4f6;
+}
+
+body {
+  background: linear-gradient(to bottom right, var(--heritage-amber), var(--bg-dark));
+  font-family: 'Inter', sans-serif;
+  color: var(--text-light);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather Sans', sans-serif;
+  color: var(--heritage-teal);
+}
+
+.bangla-text {
+  font-family: 'Noto Sans Bengali', sans-serif;
+  color: var(--heritage-amber);
+}
+
+button {
+  background-color: var(--heritage-amber);
+  color: #1e1e1e;
+  font-family: 'Merriweather Sans', sans-serif;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--heritage-teal);
+  color: #fff;
+}
+
+.card {
+  background-color: #2d2d2d;
+  border: 2px solid var(--heritage-green);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  border-color: var(--heritage-teal);
+}  
+
+#busImage {
+  width: 100%;
+  height: 12rem; /* or use auto if you want natural height */
+  object-fit: cover;
+  border-radius: 0.5rem;
+  display: block;
+  border: 2px solid red;
+}
