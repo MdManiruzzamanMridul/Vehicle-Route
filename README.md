@@ -1,19 +1,12 @@
 🚍 Dhaka Bus Route Finder
-A sleek, bilingual web app to help commuters in Dhaka find bus routes between any two stops. Built with premium UI, heritage-inspired design, and a touch of humor (yes, there's a Pokémon-style fallback image for missing buses).
+A sleek, bilingual web app to help commuters in Dhaka find bus routes between any two stops. Built with premium UI, heritage-inspired design, and a touch of humor.
 
-🔧 Features
-- 🔍 Search by Start & Destination
-Instantly find buses that connect your selected stops.
-- 🌐 Bilingual Interface
-Switch between English and Bangla with one click.
-- 🧠 Smart Autocomplete
-Custom input suggestions based on real bus stop data.
-- 📜 Service & Time Info
-Displays service type and operating hours (or "N/A" if unknown).
-- 🖼️ Dynamic Bus Cards
-Each result includes a bus image, name, service, and route preview.
-- 🤖 Fallback Humor
-Missing image? Enjoy a meme-style "Who's That Bus?" silhouette.
+✨ Features
+- 🌐 Bilingual Interface — Switch between English and Bangla with one click
+- 🧠 Smart Autocomplete — Custom input suggestions based on real bus stop data
+- 📜 Service & Time Info — Displays service type and operating hours (or "N/A" if unknown)
+- 🖼️ Dynamic Bus Cards — Each result includes a bus image, name, service, and route preview
+- 🤖 Fallback Humor — Missing image? Enjoy a meme-style "Who's That Bus?" silhouette
 
 📁 File Structure
 ├── index.html
@@ -24,6 +17,8 @@ Missing image? Enjoy a meme-style "Who's That Bus?" silhouette.
 │       ├── fallback.png
 │       ├── default.jpg
 │       └── [bus images]
+
+
 
 📦 Data Format (buses.json)
 Each bus entry includes:
@@ -36,11 +31,13 @@ Each bus entry includes:
   "image": "balaka.jpg"
 }
 
+
+
 🚀 Getting Started
 - Clone the repo
 - Open index.html in your browser
-- Start typing your start and end stops
-- Click "Search" and explore the results!
+- Enter your start and end stops
+- Click Search to explore results
 
 🧪 Future Enhancements
 - Route visualization on map
@@ -49,7 +46,5 @@ Each bus entry includes:
 - Offline support
 
 👨‍💻 Developer
-Crafted by Fahim & Mridul — CSE undergrads, UI perfectionists, and branding enthusiasts.
+Crafted by Fahim — CSE undergrad, UI perfectionist, and branding enthusiast.
 Premium layout, pixel-perfect cards, and meme-powered fallback logic.
-
-
