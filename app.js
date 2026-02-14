@@ -321,6 +321,12 @@ function searchBuses() {
     svc.innerText = `${langData[currentLang].service}: ${translateService(bus.service_type)}`;
     card.appendChild(svc);
 
+    // ⏰ Add time (show N/A if missing)
+    const timeEl = document.createElement("p");
+    timeEl.className = "text-sm text-gray-400";
+    timeEl.innerText = `${langData[currentLang].time}: ${bus.time ? bus.time : "N/A"}`;
+    card.appendChild(timeEl);
+
     // 📦 Add click handler to open modal
     card.onclick = () => showDetails(bus);
 
@@ -392,8 +398,8 @@ function showDetails(bus) {
   }
 
   if (t) {
-    t.innerText = bus.time ? `${langData[currentLang].time}: ${bus.time}` : "";
-  }
+  t.innerText = `${langData[currentLang].time}: ${bus.time ? bus.time : "N/A"}`;
+}
 
   if (route) {
     route.innerHTML = Array.isArray(bus.routes)
