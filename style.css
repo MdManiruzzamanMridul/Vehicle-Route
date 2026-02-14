@@ -63,3 +63,17 @@ button:hover {
   display: block;
   border: 2px solid red;
 }
+
+.modal-close {
+  background: none !important;   /* removes any background */
+  border: none;                  /* removes border if any */
+  padding: 0;                    /* keeps it tight */
+  color: #ccc;                   /* light gray text */
+  font-size: 2rem;             /* size of the X */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.modal-close:hover {
+  color: var(--heritage-amber);  /* highlight on hover */
+}
