@@ -278,7 +278,7 @@
       "service_type": ""
     },
     {
-      "english": "Alif",
+      "english": "Alif (Mirpur ➡️ Nandan Park)",
       "bangle": "আলিফ বাস",
       "image": "আলিফ বাস.jpg",
       "routes": [
@@ -301,7 +301,7 @@
       "service_type": ""
     },
     {
-      "english": "Alif",
+      "english": "Alif (Shia Mosque ➡️ Banasree)",
       "bangle": "আলিফ বাস",
       "image": "আলিফ বাস.jpg",
       "routes": [
@@ -327,7 +327,7 @@
       "service_type": ""
     },
     {
-      "english": "Alif",
+      "english": "Alif (Mirpur 1 ➡️ Banasree)",
       "bangle": "আলিফ বাস",
       "image": "আলিফ বাস.jpg",
       "routes": [
@@ -352,7 +352,7 @@
       "service_type": ""
     },
     {
-      "english": "Alif",
+      "english": "Alif (Japan Garden City ➡️ Abdullahpur)",
       "bangle": "আলিফ বাস",
       "image": "আলিফ বাস.jpg",
       "routes": [
@@ -704,7 +704,7 @@
       "service_type": "Semi-Sitting Service"
     },
     {
-      "english": "Basumati",
+      "english": "Basumati Transport (Gabtoli ➡️ Maowa)",
       "bangle": "বাসুমতি বাস",
       "image": "বাসুমতি বাস.jpg",
       "routes": [
@@ -735,7 +735,7 @@
       "service_type": ""
     },
     {
-      "english": "Basumati Transport",
+      "english": "Basumati Transport (Gabtoli ➡️ Gazipur Chourasta)",
       "bangle": "বাসুমতি ট্রান্সপোর্ট",
       "image": "বাসুমতি বাস.jpg",
       "routes": [
@@ -959,8 +959,8 @@
       "service_type": "Semi-Sitting Service"
     },
     {
-      "english": "Bikash",
-      "bangle": "বিকাশ বাস",
+      "english": "Bikash Paribahan (Azimpur ➡️ Kamarpara)",
+      "bangle": "বিকাশ পরিবহন বাস",
       "image": "বিকাশ বাস.jpg",
       "routes": [
         "Azimpur",
@@ -987,7 +987,7 @@
       "service_type": "Semi-Sitting Service"
     },
     {
-      "english": "Bikash Paribahan",
+      "english": "Bikash Paribahan (Sign Board ➡️ Dhour)",
       "bangle": "বিকাশ পরিবহন বাস",
       "image": "বিকাশ বাস.jpg",
       "routes": [
@@ -1069,7 +1069,7 @@
       "service_type": "Semi-Sitting Service"
     },
     {
-      "english": "Bashumoti",
+      "english": "Bashumoti (Gazipur Chourasta ➡️ Gabtoli)",
       "bangle": "বসুমতি বাস",
       "image": "বসুমতি বাস.jpg",
       "routes": [
@@ -1087,7 +1087,7 @@
       "service_type": ""
     },
     {
-      "english": "BRTC",
+      "english": "BRTC (Madanpur ➡️ Savar)",
       "bangle": "বি আর টিসি বাস",
       "image": "বি আর টিসি বাস.jpg",
       "routes": [
@@ -1126,7 +1126,7 @@
       "service_type": "Semi-Sitting Service"
     },
     {
-      "english": "BRTC",
+      "english": "BRTC (Motijheel ➡️ Tongi)",
       "bangle": "বি আর টিসি বাস",
       "image": "বি আর টিসি বাস.jpg",
       "routes": [
@@ -1163,7 +1163,7 @@
       "service_type": "Semi-Sitting Service"
     },
     {
-      "english": "BRTC",
+      "english": "BRTC (Motijheel ➡️ Chandra)",
       "bangle": "বি আর টিসি বাস",
       "image": "বি আর টিসি বাস.jpg",
       "routes": [
@@ -1196,7 +1196,7 @@
       "service_type": "Semi-Sitting Service"
     },
     {
-      "english": "BRTC",
+      "english": "BRTC (Mohammadpur ➡️ Kuril Bishwa Road)",
       "bangle": "বি আর টিসি বাস",
       "image": "বি আর টিসি বাস.jpg",
       "routes": [
@@ -1222,7 +1222,7 @@
       "service_type": "Semi-Sitting Service"
     },
     {
-      "english": "BRTC",
+      "english": "BRTC (Kamalapur ➡️ Kuril Bishwa Road)",
       "bangle": "বি আর টিসি বাস",
       "image": "বি আর টিসি বাস.jpg",
       "routes": [
@@ -1256,7 +1256,7 @@
       "service_type": "Semi-Sitting Service"
     },
     {
-      "english": "BRTC",
+      "english": "BRTC (Vulta ➡️ Kuril Bishwa Road)",
       "bangle": "বি আর টিসি বাস",
       "image": "বি আর টিসি বাস.jpg",
       "routes": [
@@ -1271,7 +1271,7 @@
       "service_type": "Semi-Sitting Service"
     },
     {
-      "english": "BRTC",
+      "english": "BRTC (Motijheel ➡️ Abdullahpur)",
       "bangle": "বি আর টিসি বাস",
       "image": "বি আর টিসি বাস.jpg",
       "routes": [
@@ -1308,7 +1308,7 @@
       "service_type": "Semi-Sitting Service"
     },
     {
-      "english": "BRTC",
+      "english": "BRTC (Mohammadpur ➡️ Motijheel)",
       "bangle": "বি আর টিসি বাস",
       "image": "বি আর টিসি বাস.jpg",
       "routes": [
@@ -1333,7 +1333,7 @@
       "service_type": "Semi-Sitting Service"
     },
     {
-      "english": "BRTC",
+      "english": "BRTC (Gabtoli ➡️ Gazipur Chourasta)",
       "bangle": "বি আর টিসি বাস",
       "image": "বি আর টিসি বাস.jpg",
       "routes": [
@@ -1624,7 +1624,7 @@
       "service_type": ""
     },
     {
-      "english": "Dhakar Chaka",
+      "english": "Dhakar Chaka (Police Plaza ➡️ Gulshan 2)",
       "bangle": "ঢাকার চাকা বাস",
       "image": "ঢাকার চাকা বাস.jpg",
       "routes": [
@@ -1636,7 +1636,7 @@
       "service_type": "Sitting Service(Ticket System)"
     },
     {
-      "english": "Dhakar Chaka",
+      "english": "Dhakar Chaka (Banani ➡️ Notun Bazar)",
       "bangle": "ঢাকার চাকা বাস",
       "image": "ঢাকার চাকা বাস.jpg",
       "routes": [
@@ -1726,7 +1726,7 @@
       "service_type": ""
     },
     {
-      "english": "ETC",
+      "english": "ETC (Golap Shah Mazar ➡️ Mirpur 12)",
       "bangle": "ইটিসি বাস",
       "image": "ইটিসি বাস.jpg",
       "routes": [
@@ -1745,7 +1745,7 @@
       "service_type": ""
     },
     {
-      "english": "ETC Transport",
+      "english": "ETC (Golap Shah Mazar ➡️ Paltan ➡️ Mirpur 12)",
       "bangle": "ইটিসি ট্রান্সপোর্ট বাস",
       "image": "ইটিসি বাস.jpg",
       "routes": [
@@ -1807,7 +1807,7 @@
       "service_type": ""
     },
     {
-      "english": "FTCL",
+      "english": "FTCL (Mohammadpur ➡️ Chittagong Road)",
       "bangle": "এফটিসিএল বাস",
       "image": "এফটিসিএল বাস.jpg",
       "routes": [
@@ -1838,7 +1838,7 @@
       "service_type": ""
     },
     {
-      "english": "FTCL",
+      "english": "FTCL (Mohammadpur ➡️ Arambagh)",
       "bangle": "এফটিসিএল বাস",
       "image": "এফটিসিএল বাস.jpg",
       "routes": [
@@ -2041,7 +2041,7 @@
       "service_type": ""
     },
     {
-      "english": "Himachal",
+      "english": "Himachal (Mirpur Sony Cinema Hall ➡️ Khilgaon Khidma Hospital)",
       "bangle": "হিমাচল বাস",
       "image": "হিমাচল বাস.jpg",
       "routes": [
@@ -2060,8 +2060,8 @@
       "service_type": ""
     },
     {
-      "english": "Himachal Suveccha",
-      "bangle": "হিমাচল শুভেচ্ছা বাস",
+      "english": "Himachal (Metro Hall ➡️ Mirpur 12)",
+      "bangle": "হিমাচল বাস",
       "image": "হিমাচল বাস.jpg",
       "routes": [
         "Metro Hall",
@@ -2134,7 +2134,7 @@
       "service_type": ""
     },
     {
-      "english": "Jabale Noor Paribahan",
+      "english": "Jabale Noor Paribahan (Agargaon ➡️ Abdullahpur)",
       "bangle": "জাবালে নুর পরিবহন বাস",
       "image": "জাবালে নুর পরিবহন বাস.jpg",
       "routes": [
@@ -2157,7 +2157,7 @@
       "service_type": "Half-Sitting Service"
     },
     {
-      "english": "Jabale Noor Paribahan",
+      "english": "Jabale Noor Paribahan (Gabtoli ➡️ Notun Bazar)",
       "bangle": "জাবালে নুর পরিবহন বাস",
       "image": "জাবালে নুর পরিবহন বাস.jpg",
       "routes": [
@@ -2321,7 +2321,7 @@
     },
     {
       "english": "Lal Sabuj",
-      "bangle": "AC Bus Route",
+      "bangle": "লাল সবুজ বাস",
       "image": "লাল সবুজ.jpg",
       "routes": [
         "Nandan Park",
@@ -2874,7 +2874,7 @@
       "service_type": ""
     },
     {
-      "english": "Nilachol Dhaka",
+      "english": "Nilachol",
       "bangle": "নিলাচল বাস",
       "image": "নিলাচল বাস.jpg",
       "routes": [
@@ -3174,7 +3174,7 @@
       "service_type": ""
     },
     {
-      "english": "Raida Dhaka",
+      "english": "Raida",
       "bangle": "রাইদা বাস",
       "image": "রাইদা বাস.jpg",
       "routes": [
@@ -3636,7 +3636,7 @@
       "service_type": ""
     },
     {
-      "english": "Shikhor Paribahan",
+      "english": "Shikhor Paribahan (Mirpur 12 to Jatrabari)",
       "bangle": "শিকড় পরিবহন বাস",
       "image": "শিকড় পরিবহন বাস.jpg",
       "routes": [
@@ -3667,7 +3667,7 @@
       "service_type": ""
     },
     {
-      "english": "Shikhor Paribahan",
+      "english": "Shikhor Paribahan (Jatrabari ➡️ Mirpur 12)",
       "bangle": "শিকড় পরিবহন বাস",
       "image": "শিকড় পরিবহন বাস.jpg",
       "routes": [
@@ -4207,7 +4207,7 @@
       "service_type": ""
     },
     {
-      "english": "Trust Transport Services",
+      "english": "Trust Transport Services (Mirpur 10 ➡️ Banani)",
       "bangle": "ট্রাষ্ট ট্রান্সপোর্ট বাস",
       "image": "ট্রাষ্ট ট্রান্সপোর্ট বাস.jpg",
       "routes": [
@@ -4222,7 +4222,7 @@
       "service_type": ""
     },
     {
-      "english": "Trust Transport Services",
+      "english": "Trust Transport Services (Mirpur 10 ➡️ Khilkhet)",
       "bangle": "ট্রাষ্ট ট্রান্সপোর্ট বাস",
       "image": "ট্রাষ্ট ট্রান্সপোর্ট বাস.jpg",
       "routes": [
